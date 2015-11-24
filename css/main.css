@@ -1,0 +1,39 @@
+nav {
+	text-align: center;
+	background-color: #F1EBE3;
+	font-size: 20px;
+	width: 100%;
+	z-index: 1;
+	font-variant: small-caps;
+}
+
+nav a {
+	color: #27223E;  
+	padding: 1em;
+}
+
+nav a:hover {
+	color: #ED9074;
+	text-decoration: none;
+}
+
+nav a:active {
+	color: #B26C57;
+}
+
+#navbarLinks {
+	margin-top: 10px;
+}
+
+.pageContent {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.projectItems {
+	padding: 0.5em;
+}
+
+.abouttext {
+	margin-top: 30px;
+}
