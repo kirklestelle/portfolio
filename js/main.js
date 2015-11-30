@@ -2,7 +2,8 @@
 angular.module('myApp', ['ui.router', 'firebase'])
 
 // Configure app for multiple page layout
-.config(function($stateProvider) {
+.config(function($stateProvider, $urlRouterProvider) {
+	$urlRouterProvider.when('','/')
 	$stateProvider
 		.state('about', {
 			url:'/',
